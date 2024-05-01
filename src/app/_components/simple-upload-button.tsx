@@ -46,6 +46,9 @@ export function SimpleUploadButton(){
         onUploadBegin(fileName) {
             toast.info(`Uploading ${fileName}...`);
         },
+        onUploadError: (error) => {
+            toast.error("Upload failed");
+        },
         onClientUploadComplete: () => {
             toast.success("Upload complete!");
             router.refresh();
