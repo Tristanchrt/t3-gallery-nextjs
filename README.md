@@ -1,29 +1,45 @@
-# Create T3 App
+# T3 App photos gallery
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+The [T3 Stack](https://github.com/t3-oss/create-t3-app) is a web development stack made on simplicity, modularity, and full-stack typesafety.
 
-## What's next? How do I make an app with this?
+The purpose of this stack and repository is to provide a comprehensive example of a modern, production-ready React application, complete with authentication, monitoring, analytics, and more.
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
-
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+## Stack used
 
 - [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
+    - High-quality web applications with the power of React components
+- Vercel
+    - Deployement
 - [Drizzle](https://orm.drizzle.team)
+    - ORM (SQL)
 - [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+    - CSS
+- UpStash
+    - Redis databse for rate limits  
+- Shadcn
+    - Beautifully designed components
+- Uploadthing
+    - Bucket to store files
+- Sentry
+    - Get error
+- Posthog
+    - Analytics
+- Clerk
+    - Authentification
+- pnpm
 
-## Learn More
+## Implemented Features:
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+Authentication with GitHub and Google.
+User-controlled image uploads and deletion.
+Deployed on production.
+Image gallery view with detailed information on click.
+Rate limiting functionality.
+Upload restrictions tailored to specific users.
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+## Feature nice to have
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
-
-## How do I deploy this?
-
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+- Fix the page layout for images of different resolutions
+- "Selecting" images on the gallery page
+- "infinite scroll"
+- Folders/albums
