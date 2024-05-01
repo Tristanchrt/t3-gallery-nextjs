@@ -4,7 +4,7 @@ The [T3 Stack](https://github.com/t3-oss/create-t3-app) is a web development sta
 
 The purpose of this stack and repository is to provide a comprehensive example of a modern, production-ready React application, complete with authentication, monitoring, analytics, and more.
 
-## Stack used
+## Stack used
 
 - [Next.js](https://nextjs.org)
     - High-quality web applications with the power of React components
@@ -37,7 +37,7 @@ Image gallery view with detailed information on click.
 Rate limiting functionality.
 Upload restrictions tailored to specific users.
 
-## Feature nice to have
+## Feature nice to have
 
 - Fix the page layout for images of different resolutions
 - "Selecting" images on the gallery page
