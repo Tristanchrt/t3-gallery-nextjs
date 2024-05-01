@@ -28,7 +28,7 @@ The purpose of this stack and repository is to provide a comprehensive example o
     - Authentification
 - pnpm
 
-## Implemented Features:
+## Implemented Features:
 
 Authentication with GitHub and Google.
 User-controlled image uploads and deletion.
