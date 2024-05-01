@@ -17,7 +17,7 @@ async function Images() {
               <Link href={`/img/${image.id}`}>
                 <Image src={image.url} alt={image.name} width={192} height={192}/>
               </Link>
-                <div>{image.name}</div>
+                <div>{image.name} </div>
             </div>
           ))
         }
