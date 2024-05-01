@@ -7,6 +7,7 @@ import { extractRouterConfig } from "uploadthing/server";
 import { Inter } from "next/font/google";
 import { TopNav } from "./_components/topnav";
 import { ourFileRouter } from "./api/uploadthing/core";
+import { Toaster } from "sonner";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -42,6 +43,7 @@ export default function RootLayout({
           </div>
           {modal}
           <div id="modal-root" />
+            <Toaster />
           </body>
       </html>
     </ClerkProvider>
