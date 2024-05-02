@@ -8,34 +8,33 @@ The purpose of this stack and repository is to provide a comprehensive example o
 
 - [Next.js](https://nextjs.org)
     - High-quality web applications with the power of React components
-- Vercel
+- [Vercel](https://vercel.com/)
     - Deployement
 - [Drizzle](https://orm.drizzle.team)
     - ORM (SQL)
 - [Tailwind CSS](https://tailwindcss.com)
     - CSS
-- UpStash
+- [UpStash](https://upstash.com/)
     - Redis databse for rate limits  
-- Shadcn
+- [Shadcn](https://ui.shadcn.com/)
     - Beautifully designed components
-- Uploadthing
+- [Uploadthing](https://uploadthing.com/)
     - Bucket to store files
-- Sentry
+- [Sentry](https://sentry.io/)
     - Get error
-- Posthog
+- [Posthog](https://posthog.com/)
     - Analytics
-- Clerk
+- [Clerk](https://clerk.com/)
     - Authentification
-- pnpm
 
 ## Implemented Features:
 
-Authentication with GitHub and Google.
-User-controlled image uploads and deletion.
-Deployed on production.
-Image gallery view with detailed information on click.
-Rate limiting functionality.
-Upload restrictions tailored to specific users.
+- Authentication with GitHub and Google.
+- User-controlled image uploads and deletion.
+- Deployed on production.
+- Image gallery view with detailed information on click.
+- Rate limiting functionality.
+- Upload restrictions tailored to specific users.
 
 ## Feature nice to have
 
